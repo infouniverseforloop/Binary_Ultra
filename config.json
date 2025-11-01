@@ -1,0 +1,25 @@
+{
+  "mode": "BINARY_ONLY",
+  "pairs": {
+    "REAL": ["EUR/USD","GBP/USD","USD/JPY","AUD/USD","USD/CAD","USD/CHF","NZD/USD"],
+    "OTC": ["AUD/NZD","USD/DZD","USD/BRL","GBP/NZD","USD/JPY","USD/BDT","USD/CAD","USD/CHF","USD/NGN","USD/PKR","USD/PHP","EUR/GBP","USD/ZAR","USD/EGP","USD/COP","USD/ARS","EUR/CAD","USD/TRY","NZD/CHF","AUD/USD","USD/INR","CAD/CHF","AUD/JPY","AUD/CAD","EUR/CHF","USD/IDR"],
+    "CRYPTO": ["Arbitrum","Dash","Dogecoin","Polkadot","Pepe","Shiba inu","Celestia","Ripple","Bitcoin","Gala","Binance coin","Hamster kombat","Toncoin","Trump","TRON","Zcash","Bonk","Aptos"],
+    "COMMODITIES": ["Gold","UKbrent","UScrude","Silver"]
+  },
+  "primary_timeframe": "1m",
+  "higher_timeframes": ["5m","15m","1h"],
+  "historical_candles": 200,
+  "confirmation_threshold": 3,
+  "confidence_publish_threshold": 60,
+  "expiry_seconds": 60,
+  "pre_signal_seconds": 3,
+  "pair_cooldown_seconds": 90,
+  "max_trades_per_hour": 12,
+  "max_consecutive_losses": 5,
+  "risk_percent_per_trade": 0.5,
+  "position_size_base": 1.0,
+  "utc_offset_hours": 6,
+  "use_telegram": false,
+  "telegram_poll": false,
+  "debug_ws": false
+}
