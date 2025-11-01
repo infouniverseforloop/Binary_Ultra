@@ -1,0 +1,10 @@
+requests
+websocket-client
+python-dotenv
+pandas
+numpy
+playwright
+colorama
+schedule
+scikit-learn
+lightgbm
